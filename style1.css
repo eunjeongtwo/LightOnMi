@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(rgb(207, 226, 255), rgb(240, 215, 255));
+    min-height:100vh;
+}
+#grid{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    width:1200px;
+    margin:0 auto;
+}
+#LoginLocation{
+    margin-left:28px;
+}
+#others{
+    padding:12px 80px 12px 45px;
+}
+h1{
+    text-align:center;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:lighter;
+    margin:0;
+    padding:35px 0px 35px 0px;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding:20px 0px 10px 5px;
+}
+#currentWeather{
+    padding-left:10px;
+}
+input[type="text"]{
+    width:200px;
+    height:32px;
+    font-size:15px;
+    border:0;
+    padding-left:10px;
+    background-color: rgb(233,233,233);
+    border-radius:5px;
+}
+button{
+    margin-top:8px;
+    margin-bottom:8px;
+    height:34px;
+    font-size:15px;
+    border:0;
+    border-radius:5px;
+    background-color:rgb(172, 213, 255);
+    font-weight:bolder; 
+    color:rgb(30, 30, 30);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(164, 204, 244);
+}
+#loginButton, #buttonGrid{
+    width:212px;
+}
+#buttonGrid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+}
+#updateLocation{
+    margin-right:8px;
+}
+.block{
+    background-color:rgba(255, 255, 255, 0.30);
+    border-radius:15px;
+    padding: 15px 0px 35px 45px;
+    margin-top:10px;
+}
+.Grid_in{
+    display:grid;
+    padding:10px;
+    box-sizing:border-box;
+    grid-template-columns:1fr 1fr;
+}
+.child{
+    margin:10px;
+    font-size:15px;
+}
+#currentTempValue,#currentPmValue{
+    font-size:80px;
+    padding:10px;
+}
+.unit{
+    font-size:20px;
+    /* font-weight: bolder; */
+}
+input[type="range"]{
+    width:200px; 
+}
+input[type="number"]{
+    width:50px;
+    height:27px;
+    font-size:15px;
+    border:1px solid lightgray;
+    padding-left:10px;
+    background-color: white;
+    margin:10px;    
+}
